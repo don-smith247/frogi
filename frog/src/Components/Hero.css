@@ -1,0 +1,60 @@
+.frog-section {
+    text-align: center;
+    position: relative;
+}
+.frog-container {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+.main-image {
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+  
+.frog-decorative {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+.frog-top-left {
+    top: 20px;
+    left: -10px;
+}
+.frog-top-right {
+    top: 20px;
+    right: -10px;
+}
+.frog-bottom-left {
+    bottom: 20px;
+    left: -5px;
+}
+.frog-bottom-right {
+    bottom: 20px;
+    right: -5px;
+}
+.description {
+    color: #8b7355;
+    font-size: 18px;
+    margin-bottom: 32px;
+    line-height: 1.5;
+}
+.cta-button {
+    background-color: #d4bc94;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 32px;
+    font-size: 20px;
+    color: #6b5b45;
+    cursor: pointer;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: 0 auto;
+    border: 2px solid #2e2615;
+}
+.cta-button .img {
+    font-size: 30px;
+    color: #2e2615;
+}

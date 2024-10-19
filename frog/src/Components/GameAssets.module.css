@@ -1,0 +1,88 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  background-color: #fcf8e3; 
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: solid 3px #3b321d;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #6b5b35;
+  background-color: #f2d086; 
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 2px #6b5b35;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background-color: #776439;
+  align-items: center;
+  padding: 30px 20px;
+  border: #1f190c solid 3px;
+  border-radius: 10px;
+}
+
+.iconList {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.iconButton {
+  background-color: #a08258; 
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.iconButton:hover, .iconButton.active {
+  background-color: #6b5b35;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  color: #4caf50; 
+}
+
+.descriptionBox {
+  background-color: #f7d07b; 
+  padding: 15px;
+  border-radius: 4px;
+  min-height: 150px;
+}
+
+.prompt {
+  font-style: italic;
+  color: #757575;
+}
+
+@media (min-width: 768px) {
+  .content {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .iconList {
+    flex-direction: column;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+
+  .descriptionBox {
+    flex: 1;
+  }
+}
